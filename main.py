@@ -36,7 +36,7 @@ except Exception as e:
     print(f"Database Error: {e}")
     exit()
 
-# --- 2. LOGIN FUNCTION YOU WANTED ---
+
 def login():
     print("===== Admin Login Required =====")
     username = input("Enter username: ")
@@ -58,7 +58,7 @@ if not login():
     conn.close()
     exit()
 
-# --- 3. YOUR EXISTING MENU ---
+# --- 3. SHOWING EXISTING MENU ---
 while True:
     print("1. Add Student")
     print("2. View Students")
