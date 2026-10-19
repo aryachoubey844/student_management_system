@@ -1,6 +1,6 @@
 import mysql.connector
 
-# --- 1. MySQL Connection (your fixed code, passwordless) ---
+
 try:
     # First connect without database to create it
     conn = mysql.connector.connect(
